@@ -1,4 +1,4 @@
-package Jugador.Domain;
+
 
 public class Rendimiento {
 

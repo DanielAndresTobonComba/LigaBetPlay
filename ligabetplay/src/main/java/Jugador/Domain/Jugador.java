@@ -3,15 +3,18 @@ package Jugador.Domain;
 import java.util.ArrayList;
 import java.util.List;
 
+//import Lesion;
+//import Rendimiento;
+
 public class Jugador {
 
     //private int id; 
     public int edad, numCamiseta, idEquipo;
     public String nombre, posicion, nacionalidad, estado;
     
-     // Podria ser una lista de objetos ?
-    public List<Lesion> lstLesiones; 
-    public List<Rendimiento> lstRendimientos;
+    // Podria ser una lista de objetos ?
+    //public List<Lesion> lstLesiones; 
+    //public List<Rendimiento> lstRendimientos;
 
     public Jugador () {
         //lstLesiones = new ArrayList<>();
@@ -85,7 +88,7 @@ public class Jugador {
         this.estado = estado;
     }
 
-     public List<Lesion> getLstLesiones() {
+/*      public List<Lesion> getLstLesiones() {
         return lstLesiones;
     }
 
@@ -99,6 +102,6 @@ public class Jugador {
 
     public void setLstRendimientos(List<Rendimiento> lstRendimientos) {
         this.lstRendimientos = lstRendimientos;
-    } 
+    }  */
 
 }
